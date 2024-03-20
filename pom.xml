@@ -14,7 +14,7 @@
     <name>AppPractice</name>
     <description>AppPractice</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>8</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -56,5 +56,27 @@
             </plugin>
         </plugins>
     </build>
+
+    <!--<build>
+        <finalName>AIoTPHMService</finalName>
+        <plugins>
+            &lt;!&ndash; flatten插件 &ndash;&gt;
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>flatten-maven-plugin</artifactId>
+                <version>${plugin.flatten.version}</version>
+                <executions>
+                    <execution>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+    </build>-->
 
 </project>
